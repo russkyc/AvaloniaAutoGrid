@@ -1,16 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0</Version>
-    <PackageId>Russkyc.AvaloniaAutoGrid</PackageId>
-    <Title>Russkyc.AvaloniaAutoGrid</Title>
-    <Authors>Russkyc</Authors>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.0.10" />
-  </ItemGroup>
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0</Version>
+        <PackageId>Russkyc.AvaloniaAutoGrid</PackageId>
+        <Title>Russkyc.AvaloniaAutoGrid</Title>
+        <Authors>russkyc</Authors>
+        <PackageIcon>PackageIcon.png</PackageIcon>
+        <Description>Updated Autogrid fork for Avalonia 11</Description>
+        <Copyright>carbonrobot 2013, russkyc 2024</Copyright>
+        <PackageProjectUrl>https://github.com/russkyc/AvaloniaAutoGrid</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/russkyc/AvaloniaAutoGrid/blob/master/license.txt</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/russkyc/AvaloniaAutoGrid</RepositoryUrl>
+        <PackageTags>AutoGrid, Avalonia, Avalonia Autogrid</PackageTags>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.0.10"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Resource Include="PackageIcon.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
 
 </Project>
