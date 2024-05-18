@@ -11,7 +11,6 @@
         <Description>Updated Autogrid fork for Avalonia 11</Description>
         <Copyright>carbonrobot 2013, russkyc 2024</Copyright>
         <PackageProjectUrl>https://github.com/russkyc/AvaloniaAutoGrid</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/russkyc/AvaloniaAutoGrid/blob/master/license.txt</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/russkyc/AvaloniaAutoGrid</RepositoryUrl>
         <PackageTags>AutoGrid, Avalonia, Avalonia Autogrid</PackageTags>
     </PropertyGroup>
