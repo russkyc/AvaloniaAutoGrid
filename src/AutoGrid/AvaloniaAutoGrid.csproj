@@ -3,11 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0-beta-1</Version>
+    <Version>1.0</Version>
+    <PackageId>Russkyc.AvaloniaAutoGrid</PackageId>
+    <Title>Russkyc.AvaloniaAutoGrid</Title>
+    <Authors>Russkyc</Authors>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.0.0-preview5" />
+    <PackageReference Include="Avalonia" Version="11.0.10" />
   </ItemGroup>
 
 </Project>
